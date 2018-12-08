@@ -1,0 +1,201 @@
+@font-face {
+    font-family: FuturaBold;
+    src: url("../font/LeagueSpartan-Bold.otf");
+}
+
+
+@font-face {
+    font-family: MPLUSThin;
+    src: url("../font/MPLUSRounded1c-Thin.ttf");
+}
+
+@font-face {
+    font-family: MPLUSRegular;
+    src: url("../font/MPLUSRounded1c-Regular.ttf");
+}
+
+@font-face {
+    font-family: MPLUSMedium;
+    src: url("../font/MPLUSRounded1c-Medium.ttf");
+}
+
+@font-face {
+    font-family: MPLUSBold;
+    src: url("../font/MPLUSRounded1c-Bold.ttf");
+}
+
+@font-face {
+    font-family: MPLUSExtraBold;
+    src: url("../font/MPLUSRounded1c-ExtraBold.ttf");
+}
+
+
+
+body {
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .main-image {
+      background-position: center;
+      background-size: contain;
+      height: 100vh;
+      width: 100%;
+      background-image: url("../img/bg.png");
+  }
+
+  /* .main-hero{
+      height: 100vh;
+      width: 100%;
+      background-image: url("../img/bg.png");
+
+  } */
+
+  .main-container{
+      width: 100%;
+  }
+
+  .main-hero{
+      height: 100vh;
+  }
+
+
+  .main-header{
+      padding: 32px 48px 48px 32px;
+
+  }
+
+  .main-image-overlay{
+      background-color:#0D284A;
+      opacity: 0.9;
+      width: 100%;
+      height: 100%;
+      position: relative;
+  }
+
+  .main-hero-content{
+      position: absolute;
+      background-color:rgba(13,40,74,0.9);
+      width: 100%;
+      height: 100%;
+  }
+
+  .main-caption-text{
+      color: #FFDDBB;
+      font-size: 120px;
+      font-family: "FuturaBold";
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-basis: 50%;
+      padding-top: 32px;
+      padding-left: 64px
+
+  }
+
+  .main-caption{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .main-caption-image{
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  .section{
+    height: 100vh;
+    padding: 72px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .half-section{
+    height: 25vh;
+    padding: 72px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .section-1{
+      background-color:#FAFEFF;
+
+  }
+
+
+  .section-2{
+    background-color:#FDF5ED;
+}
+
+.section-3{
+    background-color:#FAFEFF;
+
+}
+
+.image-fast{
+    /* width: 300px; */
+    height: 500px;
+}
+
+.button-register{
+    background-color: #F44950;
+    padding: 16px 32px 16px 32px; 
+    font-family: MPLUSBold;
+    letter-spacing: 3;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.image-container{
+display: flex;
+flex:1;
+justify-content: center;
+align-items: center;
+}
+
+.section-text-container{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.main-title{
+    font-family: MPLUSExtraBold;
+    font-size: 54px;
+    margin-bottom: 0px;
+    letter-spacing: 2;
+}
+
+.sub-title{
+    font-family: MPLUSRegular;
+    margin-top:0px;
+    font-size: 40px;
+    letter-spacing: 2;
+    margin-bottom: 0px;
+}
+
+.message{
+    font-family: MPLUSThin;
+    font-size: 20px;
+    letter-spacing: 2;
+    line-height: 40px;
+}
+
+footer{
+    background-color: #0D284A;
+    padding: 32px;
+    color: white;
+    font-family: MPLUSRegular;
+}
