@@ -154,6 +154,7 @@ body {
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    text-align: center;
 }
 
 .image-container{
@@ -198,4 +199,145 @@ footer{
     padding: 32px;
     color: white;
     font-family: MPLUSRegular;
+}
+
+
+.main-hero-snapshot{
+    height: 600px;
+}
+
+.image-delivery-pickup{
+    height: 275px;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media  only screen and (max-width: 1600px) {
+    .main-caption-text{
+        /* color:blue; */
+    }
+}
+@media only screen and (max-width : 1200px){
+    .main-caption-text{
+        /* color:blueviolet; */
+        font-size: 80px;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+
+    .main-caption{
+        flex-direction: column
+    }
+
+    .main-hero-snapshot{
+        height: 550px;
+    }
+
+    .main-header{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width : 992px){
+    .main-caption-text{
+        /* color:yellow; */
+    }
+}
+@media only screen and (max-width : 768px){
+    .main-caption-text{
+        /* color:yellowgreen; */
+        font-size: 80px;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+
+    .main-caption{
+        flex-direction: column
+    }
+
+    .main-hero-snapshot{
+        height: 550px;
+    }
+
+    .main-header{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+@media only screen and (max-width : 480px){
+    .main-caption-text{
+        /* color:pink; */
+        font-size: 50px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+
+    .main-caption{
+        flex-direction: column;
+    }
+
+    .main-hero-snapshot{
+        height: 375px;
+    }
+
+    .image-fast{
+        height: 200px;
+    }
+
+    .main-title{
+        font-size: 24px;
+    }
+
+    .sub-title{
+        font-size: 16px;
+    }
+
+    .image-delivery-pickup{
+        height: 120px;
+    }
+
+    .section{
+        flex-direction: column;
+    }
+
+    .section-text-container{
+        justify-content: normal;
+    }
+
+    .message{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width : 320px){
+    .main-caption-text{
+        /* color:red; */
+        font-size: 40px;
+    }
+
+    .main-hero-snapshot{
+        height: 300px;
+    }
+
+    .main-title{
+        margin-top:0px;
+    }
+
+    .message{
+        font-size: 14px;
+        line-height: 30px;
+        margin-top:0px;
+    }
+
+    .button-register{
+        min-width: 200px;
+    }
 }
